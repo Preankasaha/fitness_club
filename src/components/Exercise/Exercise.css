@@ -1,0 +1,22 @@
+.exercise-info {
+    width: 298px;
+    height: 458px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.exercise-info img {
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.list-btn {
+    width: 78%;
+    margin: 0 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}

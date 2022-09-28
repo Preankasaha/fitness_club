@@ -10,7 +10,7 @@ const Activities = () => {
 
     }, [])
     return (
-        <div className="activities-container">
+        <div className="activity-container">
             <div className="exercises-container">
                 {/* <h4>Select Today's Exercise</h4>
                 exercises:{exercises.length} */}
@@ -22,9 +22,10 @@ const Activities = () => {
                 }
             </div>
 
-            {/* <div className="dashboard-container">
+            <div className="task-board">
                 dashboard
-            </div> */}
+
+            </div>
 
         </div>
     );
