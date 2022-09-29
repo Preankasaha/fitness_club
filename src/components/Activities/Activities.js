@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import BreakTime from '../BreakTime/BreakTime';
 import Exercise from '../Exercise/Exercise';
 import TaskBoard from '../TaskBoard/TaskBoard';
 import './Activities.css'
 const Activities = () => {
     const [exercises, setExercises] = useState([]);
     const [taskBoard, setTaskBoard] = useState([]);
+    const [breaktime, setBreaktime] = useState(0);
 
 
 
@@ -25,9 +25,13 @@ const Activities = () => {
         setTaskBoard(newTaskBoard);
     }
 
+    const addHandlerToBreak = (breaktime) => {
+        console.log('clicked');
+        setBreaktime(breaktime);
+    }
     return (
         <div className='activity-container'>
-            <div>
+            <div className='info-container'>
                 <h4>Select Today's Exercise</h4>
                 <div className="">
                     <div className="exercises-container">
@@ -48,8 +52,16 @@ const Activities = () => {
 
             <div className="task-board">
                 <div className="breaktime-container">
-                    <BreakTime></BreakTime>
+                    {/* <BreakTime addHandlerToBreak={addHandlerToBreak}></BreakTime> */}
 
+                    <div className='break-btn'>
+                        <button onClick={() => addHandlerToBreak(10)}>10m</button>
+                        <button onClick={() => addHandlerToBreak(20)}>20m</button>
+                        <button onClick={() => addHandlerToBreak(30)}>30m</button>
+                        <button onClick={() => addHandlerToBreak(40)}>40m</button>
+                        <button onClick={() => addHandlerToBreak(50)}>50m</button>
+                    </div>
+                    <p>Break Time: {breaktime}m</p>
                 </div>
 
                 <div className="exercise-time-container">

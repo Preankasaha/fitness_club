@@ -1,12 +1,21 @@
 .activity-container {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    display: flex;
+    /* grid-template-columns: 4fr 1fr; */
     /* margin-left: 95px;
     margin-right: 95px; */
+    width: 100%;
+    justify-content: space-evenly;
 
 }
 
+.info-container {
+    width: 75%;
+}
+
 .task-board {
+    position: sticky;
+    top: 5%;
+    width: 18%;
     height: 555px;
     background-color: aliceblue;
 }
@@ -15,13 +24,53 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin-left: 95px;
+    justify-items: center;
 
 }
 
 
 
-.breaktime-container {
+.break-btn {
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (min-width:688px) and (max-width:992px) {
+    .activity-container {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .exercises-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:687px) {
+    .activity-container {
+
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .exercises-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .task-board {
+        /* position: relative;
+        left: 14%; */
+        width: 298px;
+        height: 458px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin: 0rem 3.5rem;
+
+    }
+
+
 }

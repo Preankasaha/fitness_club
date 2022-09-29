@@ -3,6 +3,7 @@
     height: 458px;
     border: 1px solid gray;
     border-radius: 5px;
+
 }
 
 .exercise-info img {
@@ -19,4 +20,10 @@
     background-color: orange;
     border: none;
     border-radius: 5px;
+}
+
+@media screen and (max-width:687px) {
+    .exercise-info {
+        margin: 0rem 3.5rem;
+    }
 }
