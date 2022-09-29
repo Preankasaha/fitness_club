@@ -6,8 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const notify = () => toast("Congratulation! Good Job!! Activity completed");
 
 const TaskBoard = ({ taskBoard }) => {
-    // console.log(taskBoard);
-    // console.log(taskBoard);
     let timing = 0;
     for (const exercise of taskBoard) {
         timing = timing + exercise.timing;

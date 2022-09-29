@@ -1,8 +1,6 @@
 .activity-container {
     display: flex;
-    /* grid-template-columns: 4fr 1fr; */
-    /* margin-left: 95px;
-    margin-right: 95px; */
+
     width: 100%;
     justify-content: space-evenly;
 
@@ -11,8 +9,6 @@
 .info-container {
     width: 75%;
 }
-
-
 
 .task-board {
     position: sticky;
@@ -30,7 +26,6 @@
     justify-items: center;
 
 }
-
 
 .break-btn-container {
     display: flex;
@@ -57,11 +52,8 @@
 
     }
 
-
-
     .task-board {
-        /* position: relative;
-        left: 14%; */
+
         width: 298px;
         height: 558px;
         padding: 5px;
@@ -98,16 +90,6 @@
 
     }
 
-    /* .task-board {
-        
-        width: 298px;
-        height: 598px;
-        padding: 5px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin: 0rem 3.5rem;
-
-    } */
 
     .task-board {
         height: 558pxpx;

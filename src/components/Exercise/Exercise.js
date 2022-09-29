@@ -3,8 +3,7 @@ import './Exercise.css'
 
 
 const Exercise = ({ addHandlerToList, exercise }) => {
-    // console.log(exercise);
-    // const { addHandlerToList, exercise } = props;
+
     const { image, timing, name } = exercise;
     return (
         <div className='exercise-info'>
