@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 5px 35px;
+}
+
+.header img {
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width:687px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}

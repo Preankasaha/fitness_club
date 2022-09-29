@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import TaskBoard from '../TaskBoard/TaskBoard';
 import { addTODb, getStoredData } from '../Utilities/Fakedb';
 import './Activities.css'
@@ -38,7 +39,7 @@ const Activities = () => {
     return (
         <div className='activity-container'>
             <div className='info-container'>
-                <h4>Select Today's Exercise</h4>
+                <h4 className='activitiy-title'>SELECT TODAY's EXERCISE</h4>
                 <div className="">
                     <div className="exercises-container">
 
@@ -55,7 +56,7 @@ const Activities = () => {
             </div>
 
             <div className="task-board">
-
+                <PersonalInfo></PersonalInfo>
                 <div className="breaktime-container">
                     <h3>Add a Break</h3>
                     <div className='break-btn'>

@@ -43,10 +43,12 @@
 @media screen and (max-width:687px) {
     body {
         margin: 0;
+        padding: 0;
     }
 
     .blog-container {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
 
     .blog-info1 {

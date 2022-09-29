@@ -12,11 +12,13 @@
     width: 75%;
 }
 
+
+
 .task-board {
     position: sticky;
     top: 5%;
     width: 18%;
-    height: 555px;
+    height: 655px;
     background-color: aliceblue;
     border-radius: 8px;
 }
@@ -38,9 +40,9 @@
 
 @media screen and (min-width:688px) and (max-width:992px) {
     .activity-container {
-
         flex-direction: column;
         text-align: center;
+
     }
 
 
@@ -49,22 +51,29 @@
         /* position: relative;
         left: 14%; */
         width: 298px;
-        height: 458px;
+        height: 558px;
         padding: 5px;
         margin-top: 25px;
         margin-bottom: 25px;
         margin: 0rem 3.5rem;
+
     }
 
 
 }
 
 @media screen and (max-width:687px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .activity-container {
 
         flex-direction: column;
         justify-content: center;
         align-content: center;
+
 
     }
 
@@ -73,17 +82,21 @@
 
     }
 
-    .task-board {
-        /* position: relative;
-        left: 14%; */
+    /* .task-board {
+        
         width: 298px;
-        height: 458px;
+        height: 598px;
         padding: 5px;
         margin-top: 25px;
         margin-bottom: 25px;
         margin: 0rem 3.5rem;
 
+    } */
+
+    .task-board {
+        height: 558pxpx;
+        margin: 0 3.5rem;
+        padding: 5px;
+        width: 298px;
     }
-
-
 }
