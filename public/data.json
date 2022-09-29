@@ -2,37 +2,37 @@
     {
         "id": "63347517f465c385e33f5513",
         "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "time": 32,
+        "timing": 32,
         "name": "Alissa Buchanan"
     },
     {
         "id": "63347517782d8069c62cd7e5",
         "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80",
-        "time": 26,
+        "timing": 26,
         "name": "Mai Drake"
     },
     {
         "id": "63347517af7ff9d92449a4d1",
         "image": "https://images.unsplash.com/photo-1612006564829-34fd2219e8e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "time": 37,
+        "timing": 37,
         "name": "Josie Mercado"
     },
     {
         "id": "6334751792ed8a6d8c114773",
         "image": "https://images.unsplash.com/photo-1522898467493-49726bf28798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "time": 25,
+        "timing": 25,
         "name": "Cannon Mcmillan"
     },
     {
         "id": "6334751727bdc25dc2a202c4",
         "image": "https://images.unsplash.com/photo-1574406280735-351fc1a7c5e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
-        "time": 29,
+        "timing": 29,
         "name": "Mccoy Nash"
     },
     {
         "id": "63347d31751151034f6058c2",
         "image": "https://images.unsplash.com/photo-1527933053326-89d1746b76b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "time": 38,
+        "timing": 38,
         "name": "Beulah Walker"
     }
 ]
