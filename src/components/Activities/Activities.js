@@ -55,6 +55,7 @@ const Activities = () => {
             </div>
 
             <div className="task-board">
+
                 <div className="breaktime-container">
                     <h3>Add a Break</h3>
                     <div className='break-btn'>
