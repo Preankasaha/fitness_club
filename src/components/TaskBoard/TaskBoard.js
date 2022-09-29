@@ -1,8 +1,12 @@
 import React from 'react';
 import './TaskBoard.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => toast("Congratulation! Good Job!! Activity completed");
 
 const TaskBoard = ({ taskBoard }) => {
-    console.log(taskBoard);
+    // console.log(taskBoard);
     // console.log(taskBoard);
     let timing = 0;
     for (const exercise of taskBoard) {
@@ -13,19 +17,15 @@ const TaskBoard = ({ taskBoard }) => {
 
     return (
         <div>
-            <div>
-                <h3>Add a break</h3>
-                <button className='group-btn'>10s</button>
-                <button className='group-btn'>20s</button>
-                <button className='group-btn'>30s</button>
-                <button>40s</button>
-                <button>50s</button>
-            </div>
 
             <h3>Exercise Details</h3>
             <p>selected exercises: {taskBoard.length}</p>
             <p>Exercise Time: {timing}m</p>
-            <p>Break Time: </p>
+            <div>
+                <button className='toast-btn' onClick={notify}>Activity completed</button>
+                <ToastContainer />
+            </div>
+
 
         </div>
     );

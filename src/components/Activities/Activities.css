@@ -1,15 +1,27 @@
 .activity-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    margin-left: 95px;
-    margin-right: 95px;
-    
+    /* margin-left: 95px;
+    margin-right: 95px; */
+
+}
+
+.task-board {
+    height: 555px;
+    background-color: aliceblue;
 }
 
 .exercises-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    margin-left: 95px;
+
+}
 
 
+
+.breaktime-container {
+    display: flex;
+    justify-content: space-around;
 }
