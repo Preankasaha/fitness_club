@@ -32,10 +32,22 @@
 }
 
 
-
-.break-btn {
+.break-btn-container {
     display: flex;
     justify-content: space-around;
+    background-color: #FFFFFF;
+    height: 45px;
+
+}
+
+.break-btn {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(220, 220, 220);
+}
+
+.break-btn:hover {
+    background-color: orange;
 }
 
 @media screen and (min-width:688px) and (max-width:992px) {
@@ -77,6 +89,10 @@
 
     }
 
+    .activitiy-title {
+        text-align: center;
+    }
+
     .exercises-container {
         grid-template-columns: repeat(1, 1fr);
 
@@ -96,6 +112,7 @@
     .task-board {
         height: 558pxpx;
         margin: 0 3.5rem;
+        margin-top: 25px;
         padding: 5px;
         width: 298px;
     }

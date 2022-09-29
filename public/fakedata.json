@@ -3,36 +3,36 @@
         "id": "63347517f465c385e33f5513",
         "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "timing": 32,
-        "name": "Swimming"
+        "name": "SWIMMING"
     },
     {
         "id": "63347517782d8069c62cd7e5",
         "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80",
         "timing": 26,
-        "name": "Weight-lifting"
+        "name": "WEIGHT_LIFTING"
     },
     {
         "id": "63347517af7ff9d92449a4d1",
         "image": "https://images.unsplash.com/photo-1612006564829-34fd2219e8e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "timing": 37,
-        "name": "Cycling"
+        "name": "CYCLING"
     },
     {
         "id": "6334751792ed8a6d8c114773",
         "image": "https://images.unsplash.com/photo-1612629371220-70b45ec81295?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80",
         "timing": 25,
-        "name": "Skating"
+        "name": "SKATING"
     },
     {
         "id": "6334751727bdc25dc2a202c4",
         "image": "https://images.unsplash.com/photo-1574406280735-351fc1a7c5e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
         "timing": 29,
-        "name": "Streching"
+        "name": "STRECHING"
     },
     {
         "id": "63347d31751151034f6058c2",
         "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "timing": 38,
-        "name": "Jogging"
+        "name": "JOGGING"
     }
 ]

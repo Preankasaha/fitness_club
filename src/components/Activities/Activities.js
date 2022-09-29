@@ -59,12 +59,13 @@ const Activities = () => {
                 <PersonalInfo></PersonalInfo>
                 <div className="breaktime-container">
                     <h3>Add a Break</h3>
-                    <div className='break-btn'>
-                        <button onClick={() => addHandlerToBreak(10)}>10m</button>
-                        <button onClick={() => addHandlerToBreak(20)}>20m</button>
-                        <button onClick={() => addHandlerToBreak(30)}>30m</button>
-                        <button onClick={() => addHandlerToBreak(40)}>40m</button>
-                        <button onClick={() => addHandlerToBreak(50)}>50m</button>
+                    <div className='break-btn-container'>
+                        <button onClick={() => addHandlerToBreak(10)} className='break-btn'
+                        >10m</button>
+                        <button onClick={() => addHandlerToBreak(20)} className='break-btn'>20m</button>
+                        <button onClick={() => addHandlerToBreak(30)} className='break-btn'>30m</button>
+                        <button onClick={() => addHandlerToBreak(40)} className='break-btn'>40m</button>
+                        <button onClick={() => addHandlerToBreak(50)} className='break-btn'>50m</button>
                     </div>
                     <h5>Break Time: {breaktime}m</h5>
                 </div>
