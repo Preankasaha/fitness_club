@@ -1,22 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import TaskBoard from '../TaskBoard/TaskBoard';
+import { addTODb, getStoredData } from '../Utilities/Fakedb';
 import './Activities.css'
+
 const Activities = () => {
     const [exercises, setExercises] = useState([]);
     const [taskBoard, setTaskBoard] = useState([]);
     const [breaktime, setBreaktime] = useState(0);
 
-
-
     useEffect(() => {
+
         fetch('fakedata.json')
             .then(res => res.json())
             .then(data => setExercises(data))
 
     }, [])
 
+    useEffect(() => {
+        const getStoredTime = getStoredData();
+        setBreaktime(getStoredTime);
 
+    }, [])
 
     const addHandlerToList = (exercise) => {
         console.log('clicked');
@@ -28,6 +33,7 @@ const Activities = () => {
     const addHandlerToBreak = (breaktime) => {
         console.log('clicked');
         setBreaktime(breaktime);
+        addTODb(breaktime);
     }
     return (
         <div className='activity-container'>
@@ -36,7 +42,6 @@ const Activities = () => {
                 <div className="">
                     <div className="exercises-container">
 
-
                         {
                             exercises.map(exercise => <Exercise
                                 key={exercise.id}
@@ -44,7 +49,6 @@ const Activities = () => {
                                 addHandlerToList={addHandlerToList}
                             ></Exercise>)
 
-                            // exercises.map(exercise => console.log(exercise))
                         }
                     </div>
                 </div >
@@ -52,8 +56,7 @@ const Activities = () => {
 
             <div className="task-board">
                 <div className="breaktime-container">
-                    {/* <BreakTime addHandlerToBreak={addHandlerToBreak}></BreakTime> */}
-
+                    <h3>Add a Break</h3>
                     <div className='break-btn'>
                         <button onClick={() => addHandlerToBreak(10)}>10m</button>
                         <button onClick={() => addHandlerToBreak(20)}>20m</button>
@@ -61,7 +64,7 @@ const Activities = () => {
                         <button onClick={() => addHandlerToBreak(40)}>40m</button>
                         <button onClick={() => addHandlerToBreak(50)}>50m</button>
                     </div>
-                    <p>Break Time: {breaktime}m</p>
+                    <h5>Break Time: {breaktime}m</h5>
                 </div>
 
                 <div className="exercise-time-container">

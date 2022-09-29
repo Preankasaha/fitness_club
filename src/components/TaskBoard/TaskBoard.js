@@ -19,8 +19,8 @@ const TaskBoard = ({ taskBoard }) => {
         <div>
 
             <h3>Exercise Details</h3>
-            <p>selected exercises: {taskBoard.length}</p>
-            <p>Exercise Time: {timing}m</p>
+            <h5>Exercise Time: {timing}m</h5>
+
             <div>
                 <button className='toast-btn' onClick={notify}>Activity completed</button>
                 <ToastContainer />

@@ -10,8 +10,8 @@ const Exercise = ({ addHandlerToList, exercise }) => {
         <div className='exercise-info'>
             <img src={image} alt="" />
             <div>
-                <p>{name}</p>
-                <p>Time: {timing}m</p>
+                <h4>{name}</h4>
+                <h5>Time: {timing}m</h5>
             </div>
             <button onClick={() => addHandlerToList(exercise)} className='list-btn'>
                 <p>Add To List</p>
